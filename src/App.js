@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import ExpenseTracker from './Components/ExpenseTracker';
 import './App.css';
 
-// const getLocalData = () => {
-//   let list = localStorage.getItem('lists');
-//   console.log(list)
-// }
+const getLocalData = () => {
+  let list = localStorage.getItem('lists');
+  console.log(list)
+}
 function App() {
 
   const [data, setData] = useState([]);
@@ -61,10 +61,10 @@ function App() {
 
   }
 
-  //add data to localStorage
-  // useEffect(() => {
-  //   localStorage.setData('lists', JSON.stringify(data))
-  // }, [data]);
+  // add data to localStorage
+  useEffect(() => {
+    localStorage.setData('lists', JSON.stringify(data))
+  }, [data]);
 
   const updateHandler = () => {
     const index = data.map((item) => {
