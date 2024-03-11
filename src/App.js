@@ -62,9 +62,9 @@ function App() {
   }
 
   // add data to localStorage
-  useEffect(() => {
-    localStorage.setData('lists', JSON.stringify(data))
-  }, [data]);
+  // useEffect(() => {
+  //   localStorage.setData('lists', JSON.stringify(data))
+  // }, [data]);
 
   const updateHandler = () => {
     const index = data.map((item) => {
