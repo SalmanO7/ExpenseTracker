@@ -68,9 +68,10 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-input:hover{
+
+input:hover {
   background: #fff;
-  color: #dc3545; 
+  color: #dc3545;
 }
 
 button {
@@ -105,21 +106,29 @@ button {
   cursor: pointer;
   margin: 3px 3px;
 }
-button:hover{
+
+button:hover {
   background: #fff;
-  color: #dc3545; 
+  color: #dc3545;
 }
+
 .form {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 41px 140px;
   /* width: 100%; */
-  margin-left: 30px;
+  margin-left: 160px;
   gap: 30px;
+  /* background: #000; */
 }
-.btns{
-  display: flex;
-  
-    padding: 18px 0px;
+
+.btns {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-bottom: 2000px; */
+  /* background: #000; */
+  padding-bottom: 7px;
 }
 
 .table {
@@ -131,13 +140,15 @@ button:hover{
   font-weight: bolder;
   color: #282c34;
 }
-.thead:hover{
+
+.thead:hover {
   background: #fff;
-  color: #dc3545; 
+  color: #dc3545;
 }
-.tbody:hover{
+
+.tbody:hover {
   background: #fff;
-  color: #dc3545; 
+  color: #dc3545;
 }
 
 .tbody {
@@ -155,7 +166,8 @@ button:hover{
   align-content: stretch;
   justify-content: center;
 }
-.btn :hover{
+
+.btn :hover {
   /* color: #333; */
   background: #fff;
   color: #dc3545;
